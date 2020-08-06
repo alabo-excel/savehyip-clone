@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background: #eff1f5;
+}
+
+header {
+    background-color: rgba(0, 170, 239, 0.8);
+    color: white;
+    padding: 10px;
+    padding-left: 200px;
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+header ul {
+    margin-top: 20px;
+}
+
+#aside {
+    background-color: #212121;
+    color: white;
+    width: 20%;
+    padding: 30px;
+    padding-left: 0px;
+    height: 100vh;
+    position: fixed;
+}
+
+#hidden {
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    padding: 30px;
+    display: none;
+}
+
+#hidden ul li {
+    padding: 30px;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+#aside ul li {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    text-transform: capitalize;
+}
+
+#main {
+    background-color: rgba(0, 170, 239, 0.8);
+    color: white;
+    padding: 20px;
+}
+
+main {
+    margin-left: 20%;
+    text-transform: capitalize;
+}
+
+#main table tr td {
+    padding: 5px;
+}
+
+#account {
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+    margin-left: 60px;
+}
+
+#account div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#line {
+    background-color: rgba(0, 170, 239, 0.8);
+    width: 80px;
+    height: 2px;
+}
+
+#my-account {
+    margin-left: 5%;
+    padding-top: 30px;
+}
+
+footer {
+    background-color: rgba(0, 170, 239, 0.8);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    padding-left: 27%;
+}
+
+#my-account table {
+    background-color: white;
+}
+
+#aside span {
+    background-color: rgb(196, 171, 62);
+    border-radius: 100%;
+    padding: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 30px;
+}
+
+#bars {
+    display: none;
+}
+
+#aditional1,
+#aditional2,
+#referal,
+#reports {
+    display: none;
+}
+
+
+/* #buttons button {
+    border-color: #ccc;
+    border-radius: 50%;
+    padding: 5px;
+} */
+
+@media only screen and (max-width: 600px) {
+    #bars {
+        display: block;
+    }
+    #aside {
+        display: none;
+    }
+    #main,
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #my-account {
+        margin-left: 0px;
+    }
+    .carrier {
+        margin: 50px;
+    }
+    #account {
+        padding: 50px;
+        margin-left: 0px;
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+    #main table tr td {
+        padding: 20px;
+        font-size: 40px;
+    }
+    #main h3 {
+        font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #account table tr td {
+        padding: 20px;
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 70px;
+    }
+    img {
+        margin-left: 35%;
+        width: 300px;
+    }
+    footer {
+        padding-left: 0px;
+        font-size: 30px;
+    }
+    header {
+        padding-left: 50px;
+    }
+}
